@@ -4,7 +4,7 @@
 title ytdl simplifier
 cls
 echo. 
-SET /P choice= "Video(1) oder Sound(2): "
+SET /P choice= "Video(1) or Sound(2): "
 IF "%choice%"=="1" GOTO :video
 IF "%choice%"=="2" GOTO :sound
 GOTO :decide
